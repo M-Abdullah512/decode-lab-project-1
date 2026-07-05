@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DecodeLabs | Build the Future</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="logo">DecodeLabs<span class="logo-dot">.</span></a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primaryNav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="primary-nav" id="primaryNav">
+        <a href="#home"><span class="nav-index">01</span> Home</a>
+        <a href="#features"><span class="nav-index">02</span> Features</a>
+        <a href="#content"><span class="nav-index">03</span> Explore</a>
+        <a href="#contact"><span class="nav-index">04</span> Contact</a>
+        <a href="#contact" class="btn btn-primary">Get Started</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-grid-bg" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Build the Future,<br>One Breakpoint at a Time.</h1>
+          <p class="hero-sub">A strategic, accessible interface foundation — drafted in semantic HTML, framed in CSS Grid, and finished with just enough JavaScript to feel alive.</p>
+          <div class="hero-actions">
+            <a href="#content" class="btn btn-primary">View the Blueprint</a>
+            <a href="#features" class="btn btn-secondary">See Features</a>
+          </div>
+          <dl class="hero-specs">
+            <div><dt>Viewport</dt><dd>320px &ndash; 1440px+</dd></div>
+            <div><dt>Stack</dt><dd>HTML &middot; CSS &middot; JS</dd></div>
+            <div><dt>Status</dt><dd>Mobile&#8209;First</dd></div>
+          </dl>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="blueprint-card">
+            <span class="corner corner-tl"></span>
+            <span class="corner corner-tr"></span>
+            <span class="corner corner-bl"></span>
+            <span class="corner corner-br"></span>
+            <div class="blueprint-row blueprint-header"></div>
+            <div class="blueprint-row blueprint-nav"></div>
+            <div class="blueprint-block">
+              <div class="blueprint-line w-80"></div>
+              <div class="blueprint-line w-60"></div>
+              <div class="blueprint-line w-70"></div>
+            </div>
+            <div class="blueprint-row blueprint-footer"></div>
+            <span class="dim-label dim-top">1080px</span>
+            <span class="dim-label dim-side">100vh</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features" id="features">
+      <div class="container">
+        <p class="eyebrow eyebrow-center"><span class="eyebrow-bracket">[</span> The Toolkit <span class="eyebrow-bracket">]</span></p>
+        <h2>Raw Materials, Properly Used</h2>
+        <div class="features-grid">
+          <article class="feature-card">
+            <span class="feature-index">01</span>
+            <h3>HTML5 &mdash; The Infrastructure</h3>
+            <p>Semantic landmarks and structural meaning. Not just divs &mdash; the right element for the right job.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-index">02</span>
+            <h3>CSS3 &mdash; The Skin</h3>
+            <p>Responsive styling with Grid for macro layout and Flexbox for the micro components that live inside it.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-index">03</span>
+            <h3>JavaScript &mdash; The Logic</h3>
+            <p>Lightweight state management and interactivity. No frameworks &mdash; just the fundamentals, done well.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-grid" id="content">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><span class="eyebrow-bracket">[</span> Content Grid <span class="eyebrow-bracket">]</span></p>
+            <h2>Explore the Terrain</h2>
+          </div>
+          <a href="#" class="view-all">View all &rarr;</a>
+        </div>
+        <div class="card-grid">
+          <article class="content-card">
+            <div class="card-image card-image-1"><span class="card-tag">Desert</span></div>
+            <div class="card-body">
+              <h3>Desert Landscapes</h3>
+              <p>Wide, open compositions built for breathing room on every screen.</p>
+            </div>
+          </article>
+          <article class="content-card">
+            <div class="card-image card-image-2"><span class="card-tag">Mountain</span></div>
+            <div class="card-body">
+              <h3>Mountain Trails</h3>
+              <p>Vertical rhythm that holds its structure from phone to desktop.</p>
+            </div>
+          </article>
+          <article class="content-card">
+            <div class="card-image card-image-3"><span class="card-tag">Coastal</span></div>
+            <div class="card-body">
+              <h3>Coastal Views</h3>
+              <p>Calm, trustworthy blue &mdash; the anchor tone of the whole system.</p>
+            </div>
+          </article>
+          <article class="content-card">
+            <div class="card-image card-image-4"><span class="card-tag">Forest</span></div>
+            <div class="card-body">
+              <h3>Forest Paths</h3>
+              <p>Layered depth, built one semantic element at a time.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" id="contact">
+      <div class="cta-grid-bg" aria-hidden="true"></div>
+      <div class="container cta-inner">
+        <p class="eyebrow eyebrow-light eyebrow-center"><span class="eyebrow-bracket">[</span> Sign the Plans <span class="eyebrow-bracket">]</span></p>
+        <h2>Ready to Start Building?</h2>
+        <p>Get notified when the next project unlocks.</p>
+        <form class="cta-form" id="ctaForm" novalidate>
+          <label for="email" class="visually-hidden">Email address</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required />
+          <button type="submit" class="btn btn-primary">Notify Me</button>
+        </form>
+        <p class="form-message" id="formMessage" role="status" aria-live="polite"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo">DecodeLabs<span class="logo-dot">.</span></span>
+        <p>Internship Program &middot; Full Stack Development</p>
+      </div>
+      <nav class="footer-links" aria-label="Footer">
+        <a href="#home">Home</a>
+        <a href="#features">Features</a>
+        <a href="#content">Explore</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <p class="footer-copy">&copy; <span id="year"></span> DecodeLabs. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">&uarr;</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
